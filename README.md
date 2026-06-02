@@ -10,7 +10,7 @@ The system architecture features a **three-stage automated pipeline** that execu
 
 - `**trump_complete_archive.jsonl`**: The single-source-of-truth log file on your disk. It caches the complete, raw multi-platform history directly from the ingestion passes before segregation occurs.
 - `**data/truth_social_archive.json`**: The complete historical slice of Truth Social entries. Every entry is automatically completed with real-time interaction metrics (likes, reposts, and replies) extracted over zero-cost open endpoints.
-- `**data/twitter_archive.json**`: The complete historical footprint of X-Twitter entries. To safeguard repository users from unsustainable developer token limits, billing constraints, and plan caps, this file operates in a text-only replication capacity.
+- `**data/twitter_archive.json`**: The complete historical footprint of X-Twitter entries. To safeguard repository users from unsustainable developer token limits, billing constraints, and plan caps, this file operates in a text-only replication capacity.
 
 ---
 
