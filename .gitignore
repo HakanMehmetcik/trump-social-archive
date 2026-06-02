@@ -1,0 +1,16 @@
+# Local Authentication Enclaves
+.env
+
+# Virtual Execution Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Python Compilation Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# System Metadata Noise
+.DS_Store
